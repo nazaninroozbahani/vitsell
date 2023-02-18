@@ -1,0 +1,31 @@
+.popularCategories{
+    margin-bottom: 24px;
+    
+        @media only screen and (min-width: 992px) {
+            margin-bottom: 64px;
+        }
+
+    .items{
+        margin-top: 30px;
+    }
+
+    .itemBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        gap: 4px;
+        height: 140px;
+        background: #F2F2F2;
+        border-radius: 16px;
+        margin-bottom: 32px;
+
+        img{
+            background: transparent;
+        }
+    }
+
+    .bags{
+        width: 100%;
+    }
+}

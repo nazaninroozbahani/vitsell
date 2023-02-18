@@ -1,0 +1,112 @@
+.header{
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 24px rgba(189, 182, 183, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+
+    & > div {
+        display: flex;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        color: #4F4F4F;
+        padding: 0;
+        margin: 0;
+
+        li{
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0 12px;
+
+            @media only screen and (min-width: 1100px) {
+                font-size: 14px;
+            }
+
+            &:hover{
+                color: #C2123C;
+            }
+        }
+
+        svg{
+            margin: 0 4px;
+        }
+    }
+
+    .inputBox{
+        position: relative;
+
+        input{
+            width: 254px;
+            height: 48px;
+            padding: 0 12px;
+            background-color: #F7F7F7;
+            border-radius: 32px;
+            border: none;
+
+            &:hover{
+                outline: 0.4px solid #E0E0E0;
+            }
+
+            &:focus{
+                outline: 1px solid #C2123C;
+            }
+        }
+
+        svg{
+            position: absolute;
+            left: 12px;
+            top: calc(50% - 10px);
+        }
+    }
+
+    .shoppingCartBtn {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        background-color: #F7F7F7;
+        padding: 8px;
+        border: none;
+        margin: 0 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .shoppingCartIcon {
+        fill: black;
+
+        &:hover {
+                // fill: linear-gradient(252.18deg, #D72339 0.28%, #F23B51 93.8%) !important;
+                color: red;
+            }
+
+    }
+    
+    .loginBtn{
+        padding: 8px 24px;
+        width: 126px;
+        height: 48px;
+        background: linear-gradient(252.18deg, #D72339 0.28%, #F23B51 93.8%);
+        border-radius: 24px;
+        border: none;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        transition: all 1s ease-out;
+        margin: 0 4px;
+        
+        &:hover{
+            background: linear-gradient(239.65deg, #CE273B 14.24%, #F23B51 126.89%);
+        }
+    }
+
+}

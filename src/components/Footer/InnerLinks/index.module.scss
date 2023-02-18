@@ -1,0 +1,25 @@
+.innerLinks {
+    p {
+        font-weight: 900;
+        color: #292929;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4F4F4F;
+        line-height: 22px;
+        margin-top: 16px;
+
+        li {
+            margin-top: 12px;
+
+            &:hover{
+                color: #C2123C;
+            }
+        }
+    }
+}
